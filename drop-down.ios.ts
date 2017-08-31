@@ -225,7 +225,6 @@ class DropDownLabelWrapper extends Label {
     public onLoaded() {
         super.onLoaded();
         this.internalColor = this.color;
-        this.text = null;
     }
 
     get text(): string {
